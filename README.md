@@ -1,4 +1,4 @@
-# Study on Personal Comfort Model in Multi-Environment Indoor settings 
+# Study on Personal Comfort Model in multi-domain & multi-sensory settings 
 
 ### Participant details:
    

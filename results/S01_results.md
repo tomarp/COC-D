@@ -130,3 +130,26 @@
 ### Overall Interpretation:
 - Across most observations, there's a consistent need for more natural ventilation and light to improve comfort after commuting.
 - Some entries lack complete data, particularly lambda value, temperature, and illumination.
+
+
+
+| Instance | Comfort Index | Lambda | Office Temperature (°C) | Illumination (lx) | Windows Open (%) | Doors Open (%) | Interpretation |
+|----------|---------------|--------|-------------------------|-------------------|-------------------|----------------|----------------|
+| S01_1    | 0.1039        | 0.0    | 26.05                   | 188.10            | 100               | 45             | Arrival with a lambda of 0.0 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_2    | 0.7202        | 0.0    | 28.99                   | 374.61            | 100               | 12             | Arrival with a lambda of 0.0 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_3    | No Data       | 0.0    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.0 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_4    | 0.1015        | 0.5    | 26.65                   | 184.31            | 100               | 0              | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_5    | 0.7519        | 0.0    | 28.71                   | 478.29            | 100               | 0              | Arrival with a lambda of 0.0 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_6    | 0.3042        | 0.0    | 26.35                   | 354.55            | 100               | 36             | Arrival with a lambda of 0.0 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_8    | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_10   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_11   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_12   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_13   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_14   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_16   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_17   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_18   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_19   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_20   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+| S01_21   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
