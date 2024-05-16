@@ -1,155 +1,102 @@
 # Participant ID: S01
 
-
-## Calculating instances and Duration:
-
-**S01**
-| ID_instance | Duration (min) |
-|-------------|---------------|
-| S01_1       | 36.08         |
-| S01_2       | 46.67         |
-| S01_3       | 29.05         |
-| S01_4       | 27.77         |
-| S01_5       | 33.55         |
-| S01_6       | 52.32         |
-| S01_7       | 592.45        |
-| S01_8       | 14.25         |
-| S01_9       | 212.92        |
-| S01_10      | 39.73         |
-| S01_11      | 34.77         |
-| S01_12      | 16.82         |
-| S01_13      | 22.77         |
-| S01_14      | 44.92         |
-| S01_15      | 219.05        |
-| S01_16      | 35.05         |
-| S01_17      | 19.70         |
-| S01_18      | 28.82         |
-| S01_19      | 12.00         |
-| S01_20      | 8.07          |
-| S01_21      | 24.80         |
-| **Total**   | **1924.12**   |
+## Summary
+- 21 commuting instances
+- 12 days, 
 
 
-## Summarize Temperature Differences in commuting and living lab
+## Commuting Instances Statistics and Comfort label (Lambda):
 
-- **S01_1:**
-  - Mean Temp S01: 20.21°C
-  - Mean Temp LL: 26.05°C
-  - Difference: 5.84°C
+| ID_instance | DayTrial         | Start Time          | End Time            | Duration    | DayTime        | Length**  |Min_Temp(C)_N1 | Max_Temp(C)_N1 | Avg_Temp(C)_N1 | Min_RH(%)_N1 | Max_RH(%)_N1 | Avg_RH(%)_N1 | Lambda  |
+|-------------|:----------------:|---------------------|---------------------|-------------|:---------------|:---------:|:-------------:|:--------------:|:--------------:|:------------:|:------------:|:------------:|:-------:|
+| S01_1       | Day-1, Trial-1   | 2023-09-07 06:50:36 | 2023-09-07 07:26:41 | 00:36:05    | Morning        |  Medium   |     20.12     |     20.30      |     20.20      |     50.7     |     51.2     |    51.02     |  0.28   |
+| S01_2       | Day-2, Trial-1   | 2023-09-08 14:26:47 | 2023-09-08 15:13:27 | 00:46:40    | Afternoon      |  Long     |     40.90     |     46.54      |     43.53      |     29.2     |     32.8     |    31.04     |  0.00   |
+| S01_3       | Day-2, Trial-2   | 2023-09-08 21:01:50 | 2023-09-08 21:30:53 | 00:29:03    | Evening        |  Medium   |     25.43     |     26.09      |     25.75      |     47.0     |     48.5     |    47.54     |  0.06   |
+| S01_4       | Day-3, Trial-1   | 2023-09-10 07:49:53 | 2023-09-10 08:17:39 | 00:27:46    | Morning        |  Medium   |     19.30     |     19.32      |     19.31      |     50.7     |     51.0     |    50.83     |  0.17   |
+| S01_5       | Day-4, Trial-1   | 2023-09-12 15:51:01 | 2023-09-12 16:24:34 | 00:33:33    | Afternoon      |  Medium   |     36.38     |     37.11      |     36.56      |     38.3     |     39.2     |    38.94     |  0.00   |
+| S01_6       | Day-5, Trial-1   | 2023-09-15 06:49:48 | 2023-09-15 07:42:07 | 00:52:19    | Morning        |  Long     |     26.44     |     26.44      |     26.44      |     48.0     |     48.0     |    48.00     |  0.09   |
+| S01_7*      | Day-5, Trial-2   | 2023-09-15 14:09:02 | 2023-09-16 00:01:29 | 09:52:27    | --             |   --      |     24.49     |     46.44      |     32.41      |     30.5     |     63.3     |    47.54     |   --    |
+| S01_8       | Day-6, Trial-1   | 2023-09-22 15:53:28 | 2023-09-22 16:07:43 | 00:14:15    | Afternoon      |  Short    |     24.79     |     24.79      |     24.79      |     60.9     |     60.9     |    60.90     |  0.50   |
+| S01_9*      | Day-7, Trial-1   | 2023-09-23 08:24:02 | 2023-09-23 11:56:57 | 03:32:55    | --             |   --      |     24.79     |     24.79      |     24.79      |     60.9     |     60.9     |    60.90     |   --    |
+| S01_10      | Day-7, Trial-2   | 2023-09-23 14:25:55 | 2023-09-23 15:05:39 | 00:39:44    | Afternoon      |  Medium   |     24.79     |     24.79      |     24.79      |     60.9     |     60.9     |    60.90     |  0.50   |
+| S01_11      | Day-8, Trial-1   | 2023-09-25 06:23:58 | 2023-09-25 06:58:44 | 00:34:46    | Morning        |  Medium   |     24.79     |     24.79      |     24.79      |     60.9     |     60.9     |    60.90     |  0.50   |
+| S01_12      | Day-8, Trial-2   | 2023-09-25 09:23:07 | 2023-09-25 09:39:56 | 00:16:49    | Mid-morning    |  Short    |     24.79     |     24.79      |     24.79      |     60.9     |     60.9     |    60.90     |  0.50   |
+| S01_13      | Day-8, Trial-3   | 2023-09-25 15:57:10 | 2023-09-25 16:19:56 | 00:22:46    | Afternoon      |  Medium   |     24.79     |     24.79      |     24.79      |     60.9     |     60.9     |    60.90     |  0.50   |
+| S01_14      | Day-9, Trial-1   | 2023-09-26 06:49:19 | 2023-09-26 07:34:14 | 00:44:55    | Morning        |  Long     |     24.79     |     24.79      |     24.79      |     60.9     |     60.9     |    60.90     |  0.67   |
+| S01_15*     | Day-9, Trial-2   | 2023-09-26 08:21:33 | 2023-09-26 12:00:36 | 03:39:03    | --             |   --      |     24.79     |     24.79      |     24.79      |     60.9     |     60.9     |    60.90     |   --    |
+| S01_16      | Day-10, Trial-1  | 2023-09-27 06:17:43 | 2023-09-27 06:52:46 | 00:35:03    | Morning        |  Medium   |     24.79     |     24.79      |     24.79      |     60.9     |     60.9     |    60.90     |  0.50   |
+| S01_17      | Day-10, Trial-2  | 2023-09-27 12:53:27 | 2023-09-27 13:13:09 | 00:19:42    | Midday         |  Short    |     24.79     |     24.79      |     24.79      |     60.9     |     60.9     |    60.90     |  0.50   |
+| S01_18      | Day-10, Trial-3  | 2023-09-27 13:46:25 | 2023-09-27 14:15:14 | 00:28:49    | Afternoon      |  Medium   |     24.79     |     24.79      |     24.79      |     60.9     |     60.9     |    60.90     |  0.50   |
+| S01_19      | Day-11, Trial-1  | 2023-09-28 04:17:20 | 2023-09-28 04:29:20 | 00:12:00    | Early-morning  |  Short    |     24.79     |     24.79      |     24.79      |     60.9     |     60.9     |    60.90     |  0.50   |
+| S01_20      | Day-11, Trial-2  | 2023-09-28 19:02:45 | 2023-09-28 19:10:49 | 00:08:04    | Evening        |  Short    |     24.79     |     24.79      |     24.79      |     60.9     |     60.9     |    60.90     |  0.50   |
+| S01_21      | Day-12, Trial-1  | 2023-09-29 06:30:59 | 2023-09-29 06:55:47 | 00:24:48    | Morning        |  Medium   |     24.79     |     24.79      |     24.79      |     60.9     |     60.9     |    60.90     |  0.50   |
 
-- **S01_2:**
-  - Mean Temp S01: 43.54°C
-  - Mean Temp LL: 28.99°C
-  - Difference: -14.54°C
-
-- **S01_3:**
-  - Mean Temp S01: 25.76°C
-  - Mean Temp LL: NaN
-  - Difference: NaN
-
-- **S01_4:**
-  - Mean Temp S01: 19.31°C
-  - Mean Temp LL: 26.65°C
-  - Difference: 7.34°C
-
-- **S01_5:**
-  - Mean Temp S01: 36.56°C
-  - Mean Temp LL: 28.71°C
-  - Difference: -7.85°C
-
-- **S01_6:**
-  - Mean Temp S01: 26.44°C
-  - Mean Temp LL: 26.35°C
-  - Difference: -0.09°C
-
-- **S01_8 to S01_21:**
-  - Incomplete data provided.
-
-### Overall Interpretation:
-- Significant differences observed between Subject 01's perceived temperature (S01) and the recommended lower limit (LL).
-- Some entries lack complete data, particularly the recommended lower limit temperature.
+Note: * Excluded trials '> 60 mins' | ** Short:0-20, Medium: 21-40, Long: 41-60 mins | Temp_N1 is the Node1 Temperature (°C) in the car during commuting
 
 
 
+## Weather Station Data (During Commuting):
 
-## Summary of living lab Data
-
-
-- **S01_1:**
-  - Lambda Value: 0.0
-  - Mean Temperature (C): 26.05°C
-  - Mean Illumination (lx): 188.10 lx
-  - Proportion of Time Window Open: 100%
-  - Proportion of Time Door Open: 44.78%
-  - Interpretation: The subject experienced a comfortable temperature and moderate illumination upon arrival. However, there's a suggestion for more natural ventilation and light.
-
-- **S01_2:**
-  - Lambda Value: 0.0
-  - Mean Temperature (C): 28.99°C
-  - Mean Illumination (lx): 374.61 lx
-  - Proportion of Time Window Open: 100%
-  - Proportion of Time Door Open: 11.63%
-  - Interpretation: Similar to S01_1, with higher temperature and illumination, still suggesting improvement in natural ventilation and light.
-
-- **S01_3:**
-  - Lambda Value: 0.0
-  - Mean Temperature (C): NaN
-  - Mean Illumination (lx): NaN
-  - Proportion of Time Window Open: NaN
-  - Proportion of Time Door Open: NaN
-  - Interpretation: Incomplete data provided.
-
-- **S01_4:**
-  - Lambda Value: 0.5
-  - Mean Temperature (C): 26.65°C
-  - Mean Illumination (lx): 184.31 lx
-  - Proportion of Time Window Open: 100%
-  - Proportion of Time Door Open: 0%
-  - Interpretation: Suggesting a need for more ventilation despite comfortable temperature.
-
-- **S01_5:**
-  - Lambda Value: 0.0
-  - Mean Temperature (C): 28.71°C
-  - Mean Illumination (lx): 478.29 lx
-  - Proportion of Time Window Open: 100%
-  - Proportion of Time Door Open: 0%
-  - Interpretation: Similar to S01_2, with higher temperature and illumination, still suggesting improvement in natural ventilation and light.
-
-- **S01_6:**
-  - Lambda Value: 0.0
-  - Mean Temperature (C): 26.35°C
-  - Mean Illumination (lx): 354.55 lx
-  - Proportion of Time Window Open: 100%
-  - Proportion of Time Door Open: 35.82%
-  - Interpretation: Consistent need for more natural ventilation and light.
-
-- **S01_8 to S01_21:**
-  - Lambda Value: 0.5
-  - Incomplete data provided.
-
-### Overall Interpretation:
-- Across most observations, there's a consistent need for more natural ventilation and light to improve comfort after commuting.
-- Some entries lack complete data, particularly lambda value, temperature, and illumination.
+| ID_instance | Min_Air_Temperature | Max_Air_Temperature | Avg_Air_Temperature | Min_Relative_Humidity | Max_Relative_Humidity | Avg_Relative_Humidity |
+|-------------|:--------------------|:-------------------:|:-------------------:|:---------------------:|:---------------------:|:---------------------:|
+| S01_1       | 18.83               | 19.48               | 19.10               | 65.87                 | 67.21                 | 66.51                 |
+| S01_2       | 28.15               | 29.59               | 28.71               | 33.18                 | 36.25                 | 34.64                 |
+| S01_3       | 22.82               | 23.27               | 23.09               | 35.61                 | 36.91                 | 36.19                 |
+| S01_4       | 15.56               | 17.45               | 16.41               | 57.01                 | 62.45                 | 60.26                 |
+| S01_5       | 29.27               | 30.26               | 29.85               | 25.26                 | 28.52                 | 26.28                 |
+| S01_6       | 17.68               | 17.91               | 17.81               | 99.31                 | 99.37                 | 99.34                 |
+| S01_7*      | 18.32               | 28.68               | 23.42               | 36.95                 | 86.63                 | 59.11                 |
+| S01_8       | 26.07               | 26.47               | 26.25               | 35.25                 | 37.89                 | 36.77                 |
+| S01_9*      | 15.75               | 21.15               | 18.29               | 47.11                 | 79.13                 | 64.60                 |
+| S01_10      | 21.82               | 23.55               | 22.44               | 36.53                 | 42.26                 | 40.50                 |
+| S01_11      | 14.71               | 14.86               | 14.79               | 66.57                 | 67.51                 | 67.10                 |
+| S01_12      | 16.77               | 17.10               | 16.94               | 58.71                 | 60.67                 | 59.52                 |
+| S01_13      | 20.24               | 21.36               | 20.84               | 50.23                 | 53.80                 | 52.34                 |
+| S01_14      | 15.55               | 17.01               | 16.36               | 72.71                 | 79.25                 | 76.09                 |
+| S01_15*     | 17.77               | 22.49               | 20.67               | 50.54                 | 72.67                 | 57.09                 |
+| S01_16      | 14.14               | 15.27               | 14.62               | 79.27                 | 83.71                 | 81.95                 |
+| S01_17      | 25.38               | 26.53               | 25.97               | 33.44                 | 36.11                 | 34.98                 |
+| S01_18      | 25.77               | 26.97               | 26.26               | 33.58                 | 36.35                 | 35.01                 |
+| S01_19      | 17.15               | 18.33               | 17.82               | 49.44                 | 53.25                 | 51.08                 |
+| S01_20      | 22.50               | 22.71               | 22.61               | 47.73                 | 48.43                 | 48.01                 |
+| S01_21      | 12.04               | 12.69               | 12.40               | 78.13                 | 80.02                 | 78.83                 |
 
 
 
-| Instance | Comfort Index | Lambda | Office Temperature (°C) | Illumination (lx) | Windows Open (%) | Doors Open (%) | Interpretation |
-|----------|---------------|--------|-------------------------|-------------------|-------------------|----------------|----------------|
-| S01_1    | 0.1039        | 0.0    | 26.05                   | 188.10            | 100               | 45             | Arrival with a lambda of 0.0 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_2    | 0.7202        | 0.0    | 28.99                   | 374.61            | 100               | 12             | Arrival with a lambda of 0.0 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_3    | No Data       | 0.0    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.0 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_4    | 0.1015        | 0.5    | 26.65                   | 184.31            | 100               | 0              | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_5    | 0.7519        | 0.0    | 28.71                   | 478.29            | 100               | 0              | Arrival with a lambda of 0.0 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_6    | 0.3042        | 0.0    | 26.35                   | 354.55            | 100               | 36             | Arrival with a lambda of 0.0 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_8    | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_10   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_11   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_12   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_13   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_14   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_16   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_17   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_18   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_19   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_20   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
-| S01_21   | No Data       | 0.5    | NaN                     | NaN               | NaN               | NaN            | Arrival with a lambda of 0.5 suggests a need for more natural ventilation and light, possibly to improve comfort after commuting. |
+## Living Lab (Day of Commuting from 8am to 6pm):
+
+| Day     | Start Time          | End Time            | Min_Air_Temperature | Max_Air_Temperature | Avg_Air_Temperature | Min_Illuminance | Max_Illuminance | Avg_Illuminance | Sum_Electricity1 | Sum_Electricity2 | Window_open(%) | Door_open(%) |
+|:-------:|---------------------|---------------------|:-------------------:|:-------------------:|:-------------------:|:---------------:|:---------------:|:---------------:|:----------------:|:----------------:|:--------------:|:------------:|
+| Day-1   | 2023-09-07 08:00:00 | 2023-09-07 18:00:00 | 24.87               | 28.06               | 26.17               | 30.513          | 2191.927        | 206.196         | 4.3990           | 38.056           | 100.0          |   50.00      |
+| Day-2   | 2023-09-08 08:00:00 | 2023-09-08 18:00:00 | 24.91               | 29.89               | 27.46               | 32.421          | 2191.927        | 217.251         | 11.216           | 38.065           | 100.0          |   45.83      |
+| Day-3   | 2023-09-08 08:00:00 | 2023-09-08 18:00:00 | 24.91               | 29.89               | 27.46               | 32.421          | 2191.927        | 217.251         | 11.216           | 38.065           | 100.0          |   45.83      |
+| Day-4   | 2023-09-10 08:00:00 | 2023-09-10 18:00:00 | 24.46               | 29.88               | 26.68               | 30.997          | 2191.927        | 186.733         | 4.2674           | 33.057           | 100.0          |   0.000      |
+| Day-5   | 2023-09-12 08:00:00 | 2023-09-12 18:00:00 | 24.92               | 29.22               | 26.71               | 32.890          | 2191.927        | 194.083         | 5.7668           | 31.089           | 100.0          |   1.666      |
+| Day-6   | 2023-09-15 08:00:00 | 2023-09-15 18:00:00 | 23.76               | 29.61               | 26.57               | 27.451          | 2191.927        | 393.499         | 15.686           | 42.864           | 100.0          |   40.00      |
+| Day-7   | 2023-09-15 08:00:00 | 2023-09-16 18:00:00 | 23.76               | 29.61               | 25.74               | 1.3168          | 2191.927        | 141.774         | 26.041           | 117.78           | 100.0          |   12.00      |
+| Day-8   | 2023-09-22 08:00:00 | 2023-09-22 18:00:00 | NaN                 | NaN                 | NaN                 | NaN             | NaN             | NaN             | NaN              | NaN              | NaN            |   NaN        |
+| Day-9   | 2023-09-23 08:00:00 | 2023-09-23 18:00:00 | NaN                 | NaN                 | NaN                 | NaN             | NaN             | NaN             | NaN              | NaN              | NaN            |   NaN        |
+| Day-10  | 2023-09-23 08:00:00 | 2023-09-23 18:00:00 | NaN                 | NaN                 | NaN                 | NaN             | NaN             | NaN             | NaN              | NaN              | NaN            |   NaN        |
+| Day-11  | 2023-09-25 08:00:00 | 2023-09-25 18:00:00 | NaN                 | NaN                 | NaN                 | NaN             | NaN             | NaN             | NaN              | NaN              | NaN            |   NaN        |
+| Day-12  | 2023-09-25 08:00:00 | 2023-09-25 18:00:00 | NaN                 | NaN                 | NaN                 | NaN             | NaN             | NaN             | NaN              | NaN              | NaN            |   NaN        |
+
+
+## Weather Station Data (Day of Commuting from 8am to 6pm):
+
+| Day     | Start Time          | End Time            | Min_Air_Temperature | Max_Air_Temperature | Avg_Air_Temperature | Min_Relative_Humidity | Max_Relative_Humidity | Avg_Relative_Humidity |
+|:-------:|---------------------|---------------------|:-------------------:|:-------------------:|:-------------------:|:---------------------:|:---------------------:|:---------------------:|
+| Day-1   | 2023-09-07 08:00:00 | 2023-09-07 18:00:00 | 20.66               | 28.49               |    25.615           | 31.54                 | 63.26                 |    42.017             |
+| Day-2   | 2023-09-08 08:00:00 | 2023-09-08 18:00:00 | 21.19               | 29.59               |    26.678           | 32.58                 | 60.84                 |    41.980             |
+| Day-3   | 2023-09-08 08:00:00 | 2023-09-08 18:00:00 | 21.19               | 29.59               |    26.678           | 32.58                 | 60.84                 |    41.980             |
+| Day-4   | 2023-09-10 08:00:00 | 2023-09-10 18:00:00 | 16.00               | 31.47               |    26.785           | 22.09                 | 61.53                 |    34.298             |
+| Day-5   | 2023-09-12 08:00:00 | 2023-09-12 18:00:00 | 17.34               | 30.99               |    26.130           | 24.10                 | 72.22                 |    39.060             |
+| Day-6   | 2023-09-15 08:00:00 | 2023-09-15 18:00:00 | 18.01               | 28.68               |    24.083           | 36.95                 | 99.34                 |    60.612             |
+| Day-7   | 2023-09-15 08:00:00 | 2023-09-16 18:00:00 | 16.42               | 28.68               |    21.588           | 36.95                 | 99.34                 |    73.515             |
+| Day-8   | 2023-09-22 08:00:00 | 2023-09-22 18:00:00 | 18.22               | 28.08               |    24.175           | 29.90                 | 99.26                 |    57.224             |
+| Day-9   | 2023-09-23 08:00:00 | 2023-09-23 18:00:00 | 15.41               | 24.83               |    20.323           | 32.45                 | 85.32                 |    52.922             |
+| Day-10  | 2023-09-23 08:00:00 | 2023-09-23 18:00:00 | 15.41               | 24.83               |    20.323           | 32.45                 | 85.32                 |    52.922             |
+| Day-11  | 2023-09-25 08:00:00 | 2023-09-25 18:00:00 | 14.91               | 21.36               |    18.899           | 49.65                 | 66.57                 |    56.332             |
+| Day-12  | 2023-09-25 08:00:00 | 2023-09-25 18:00:00 | 14.91               | 21.36               |    18.899           | 49.65                 | 66.57                 |    56.332             |
+
+
+
