@@ -192,12 +192,10 @@ Run script_process_data for cleaning, interpolation, instances-labeling and merg
 > `python3 script_process_data.py`
 
 **Step 6:**
-
-
-
+Final analysis for each individuals
+> `S0X_final_notebook`
 
 ## Results
-
 Refer to `results` directory
 
 
