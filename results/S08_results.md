@@ -6,7 +6,7 @@
 
 ## Table-1: During commuting, Environmental condition, comfort lablel 'LAMBDA'
 
-| ID_instance| DayTrial       | Start Time         | End Time           | Duration| Day| DayTime  | Length*| Temp(C)_N1_min| Temp(C)_N1_max| Temp(C)_N1_avg| RH(%)_N1_min| RH(%)_N1_max| RH(%)_N1_avg| Lambda| Selected|
+| ID_instance| DayTrial       | Start Time         | End Time           | Duration| Day| DayTime  | Length*| Temp(C)_N1_min| Temp(C)_N1_max| Temp(C)_N1_avg| RH(%)_N1_min| RH(%)_N1_max| RH(%)_N1_avg| Lambda| Consider|
 |------------|:---------------|--------------------|--------------------|---------|----|:---------|:------:|---------------|---------------|---------------|-------------|-------------|-------------|-------|:-------:|
 | S08_1      | Day-1, Trial-1 | 2023-07-31 12:58:39| 2023-07-31 13:08:32| 00:09:53| Mo | Afternoon|  Short | 35.25         | 46.425        | 41.28         | 20.6        | 27.8        | 23.33       | 0.03  |  Y      |
 | S08_2      | Day-1, Trial-2 | 2023-07-31 16:53:06| 2023-07-31 17:09:04| 00:15:58| Mo | Evening  |  Short | 39.46         | 40.130        | 39.79         | 21.7        | 21.9        | 21.76       | 0.00  |  Y      |
@@ -116,7 +116,7 @@
 | S08_23      | Before   | 2023-08-11 06:03:59 | 2023-08-11 07:03:59 | 25.5         | 25.6         | 25.57        | 25.6           | 25.8           | 25.61          | 54.3                  | 54.4                  | 54.38                  |
 | S08_24      | Before   | 2023-08-11 10:17:10 | 2023-08-11 11:17:10 | 26.3         | 26.4         | 26.37        | 26.5           | 26.6           | 26.57          | 53.8                  | 54.1                  | 53.88                  |
 | S08_25      | Before   | 2023-08-11 11:48:22 | 2023-08-11 12:48:22 | 26.4         | 26.5         | 26.46        | 26.6           | 26.6           | 26.60          | 54.2                  | 54.4                  | 54.30                  |
-| S08_25      | Before        | 2023-08-11 11:48:22 | 2023-08-11 12:48:22 | 26.4         | 26.5         | 26.46        | 26.6           | 26.6           | 
+| S08_25      | Before   | 2023-08-11 11:48:22 | 2023-08-11 12:48:22 | 26.4         | 26.5         | 26.46        | 26.6           | 26.6           | 
 
 
 ## Table 6: Living Lab AFTER one hour commuting
@@ -137,7 +137,7 @@
 | S08_25      | After    | 2023-08-11 12:57:54 | 2023-08-11 13:57:54 | 26.4         | 26.5         | 26.47        | 26.6           | 26.6           | 26.60          | 54.3                  | 54.5                  | 54.40                  |
 
 
-Note: For Table 5,6 only Commuting in the morning and afternoon are considered. 
+Note: For Table-5,6 considering only morning and afternoon sessions from "Consider" column in Table-1
 
 
 

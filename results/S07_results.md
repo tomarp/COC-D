@@ -6,7 +6,7 @@
 
 ## Table-1: During commuting, Environmental condition, comfort lablel 'LAMBDA'
 
-| ID_instance |DayTrial        | Start Time          | End Time            | Duration  | Day  | DayTime   | Length* |  Min_Temp(C)_N1 | Max_Temp(C)_N1 | Avg_Temp(C)_N1 | Min_RH(%)_N1 | Max_RH(%)_N1 | Avg_RH(%)_N1 |Lambda | Selected |
+| ID_instance |DayTrial        | Start Time          | End Time            | Duration  | Day  | DayTime   | Length* |  Min_Temp(C)_N1 | Max_Temp(C)_N1 | Avg_Temp(C)_N1 | Min_RH(%)_N1 | Max_RH(%)_N1 | Avg_RH(%)_N1 |Lambda | Consider |
 |-------------|---------------:|---------------------|---------------------|-----------| -----|:----------|:-------:|:----------------|----------------|----------------|--------------|--------------|--------------|-------|:--------:|
 | S07_1       |Day-1, Trial-1  | 2023-07-18 14:52:46 | 2023-07-18 15:24:35 | 00:31:49  | Tu   | Afternoon | Medium  |  56.221         | 57.527         | 56.908529      | 17.0         | 21.1         | 18.552618    | 0.00  |  Y       |
 | S07_2       |Day-1, Trial-2  | 2023-07-18 19:50:53 | 2023-07-18 19:59:40 | 00:08:47  | Tu   | Evening   | Short   |  44.540         | 44.897         | 44.717386      | 25.3         | 25.3         | 25.300000    | 0.00  |  Y       |
@@ -214,6 +214,8 @@
 | S07_33      | After    | 2023-07-28 21:33:38  | 2023-07-28 22:06:23  | 24.595703    | 24.661377    | 24.647298    | 950.003174     | 950.003174     | 950.003174     | 62.087936              | 63.96965               | 62.832019               | 1.597977 | 1.635361 | 1.614189 | 0.250828 | 0.258439 | 100.0         | 0.0         |
 | S07_34      | After    | 2023-07-28 21:33:38  | 2023-07-28 22:06:23  | 24.595703    | 24.661377    | 24.647298    | 950.003174     | 950.003174     | 950.003174     | 62.087936              | 63.96965               | 62.832019               | 1.597977 | 1.635361 | 1.614189 | 0.250828 | 0.258439 | 100.0         | 0.0         |
 
+
+Note: For Table-5,6 considering only morning and afternoon sessions from "Consider" column in Table-1
 
 
 ## Conclusion:
