@@ -193,3 +193,31 @@ Note: -- Excluded trials | * Short:0-20, Medium: 21-40, Long: 41-60 mins | Temp_
 | S02_30      | After         | 2023-08-11 12:07:27 | 2023-08-11 13:07:27 | 26.4         | 26.5         | 26.490000    | 26.6           | 26.6           | 26.600000      | 54.2                   | 54.4                   | 54.320000              |
 
 
+
+## Conclusion:
+
+For S02_1, there is a slight decrease in average air and globe temperatures and relative humidity after commuting, suggesting a minor cooling and dehumidifying effect.
+For S02_2, both air and globe temperatures decrease significantly after commuting, while relative humidity increases, indicating a cooler but more humid environment.
+For S02_4, both air and globe temperatures increase slightly after commuting, while relative humidity decreases, suggesting a warmer and drier environment.
+For S02_5, both air and globe temperatures decrease significantly after commuting, while relative humidity increases, indicating a cooler but more humid environment.
+For S02_6, both air and globe temperatures decrease slightly after commuting, while relative humidity increases marginally, indicating a cooler and slightly more humid environment.
+For S02_7, both air and globe temperatures increase after commuting, while relative humidity decreases slightly, indicating a warmer and slightly drier environment.
+For S02_8, both air and globe temperatures increase after commuting, while relative humidity decreases slightly, indicating a warmer and slightly drier environment.
+For S02_9, both air and globe temperatures decrease slightly after commuting, while relative humidity shows a minor decrease, indicating a cooler and slightly less humid environment.
+For S02_17, both air and globe temperatures increase after commuting, while relative humidity decreases slightly, indicating a warmer and slightly drier environment.
+For S02_18, both air and globe temperatures increase slightly after commuting, while relative humidity decreases slightly, indicating a slightly warmer and drier environment.
+For S02_20, both air and globe temperatures increase slightly after commuting, while relative humidity decreases slightly, indicating a slightly warmer and drier environment.
+For S02_21, both air and globe temperatures show a slight increase after commuting, while relative humidity shows a minor increase, indicating a slightly warmer and more humid environment.
+For S02_22, both air and globe temperatures show a slight increase after commuting, while relative humidity shows a minor increase, indicating a slightly warmer and more humid environment.
+For S02_23, both air and globe temperatures show a slight increase after commuting, while relative humidity remains nearly the same, indicating a slightly warmer but stable environment.
+For S02_24, both air and globe temperatures show a slight increase after commuting, while relative humidity decreases slightly, indicating a slightly warmer and drier environment.
+For S02_25, both air and globe temperatures show an increase after commuting, while relative humidity decreases slightly, indicating a warmer and slightly drier environment.
+For S02_26, both air and globe temperatures show a slight increase after commuting, while relative humidity remains nearly stable, indicating a slightly warmer and stable environment.
+For S02_27, both air and globe temperatures show a slight increase after commuting, while relative humidity remains nearly stable, indicating a slightly warmer and stable environment.
+For S02_28, both air and globe temperatures show an increase after commuting, while relative humidity decreases slightly, indicating a warmer and slightly drier environment.
+For S02_29, both air and globe temperatures show an increase after commuting, while relative humidity decreases slightly, indicating a warmer and slightly drier environment.
+For S02_30, both air and globe temperatures show a slight increase after commuting, while relative humidity increases slightly, indicating a slightly warmer and more humid environment.
+
+
+The overall conclusion shows slight variations in air and globe temperatures and relative humidity before and after commuting. Generally:
+

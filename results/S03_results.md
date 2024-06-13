@@ -102,3 +102,7 @@ Note: -- Excluded trials | * Short:0-20, Medium: 21-40, Long: 41-60 mins | Temp_
 
 Note: For Table-5,6 considering only morning and afternoon sessions from "Consider" column in Table-1
 
+
+## Conclusion:
+
+Across all instances, the indoor environment parameters, including air temperature, globe temperature, relative humidity, illumination, and electrical consumption, show no changes before and after commuting. 

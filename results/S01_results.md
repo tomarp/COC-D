@@ -128,5 +128,7 @@ Note: -- Excluded trials '> 60 mins' | ** Short:0-20, Medium: 21-40, Long: 41-60
 | S01_6       | After         | 2023-09-15 06:49:48 | 2023-09-15 07:42:07 | 24.30542     | 24.414551    | 24.364063    | 10.327911 | 25.031662 | 17.712326 | 0.312383 | 2.637536 | 100.0         | 0.0         |
 
 
+## COnclusion
 
+The data indicates that the indoor environment quality in the Living Lab remains constant before and after the subject arrives, with no significant changes in temperature, illumination, or electrical consumption.
 
