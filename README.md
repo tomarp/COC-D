@@ -1,22 +1,24 @@
-# Study on Personal Comfort Model in multi-domain & multi-sensory settings 
+# Personal Comfort Dynamics in Transition (PCDT Study)
+
+> CAR-OFFICE Comfort Dataset (COC-D) 
 
 ### Participant details:
    
-   |Serial|ID|Gender|
-   |-----|-----|:---:|
-   |1| S01 | F | 
-   |2| S02 | F | 
-   |3| S03 | F | 
-   |4| S04 | F | 
-   |5| S05 | F |
-   |6| S06 | M | 
-   |7| S07 | M | 
-   |8| S08 | F | 
+| Serial | ID | Gender |
+|-----|-----|:---:|
+|1| P01 | F | 
+|2| P02 | F | 
+|3| P03 | F | 
+|4| P04 | F | 
+|5| P05 | F |
+|6| P06 | M | 
+|7| P07 | M | 
+|8| P08 | F | 
 
 ## Data description
-    1. Physiological data
-    2. Environmenatal data
-    3. Living lab data
+    1. Physiological
+    2. Environmenatal-Car
+    3. Environmental-LivingLab
 
 ### Physiological data (source: Empatica E4)
 
@@ -49,17 +51,17 @@ The second row is the sample rate expressed in Hz.
 
 - *tags.csv:* Event mark times. Each row corresponds to a physical button press on the device; the same time as the status LED is first illuminated. The time is expressed as a unix timestamp in UTC and it is synchronized with initial time of the session indicated in the related data files from the corresponding session.
 
-### Environmental data (source: Thermohygrometer)
-| Node | Placed | Parameters |
+### Environmental-Car (source: Thermohygrometer)
+| Node | Placement | Parameters |
 |:-----:|-----|------|
-| N1 | vehicle (front ac) | Air-Temp, Humidity, Dew-point |
-| N2 | vehicle (front seat) | Air-Temp, Humidity, Dew-point |
-| N3 | vehicle (rear seat) | Air-Temp, Humidity, Dew-point |
-| N4 | vehicle (front seat) | Air-Temp, Humidity, Dew-point |
-| N5 | office desk | Air-Temp, Humidity, Dew-point |
+| N1 | Front AC    | Air-Temp, Humidity, Dew-point |
+| N2 | Front seat  | Air-Temp, Humidity, Dew-point |
+| N3 | Rear seat   | Air-Temp, Humidity, Dew-point |
+| N4 | Front seat  | Air-Temp, Humidity, Dew-point |
+| N5 | Office desk | Air-Temp, Humidity, Dew-point |
 
 
-### Living Lab data (source: )
+### Environmental-LivingLab Data (source: NIS )
 
 | LL Nr.| Node id | Parameters | Participant id |
 |-------|:--------:|-----|:-----------:|
@@ -72,15 +74,15 @@ The second row is the sample rate expressed in Hz.
 | RO 2  |   --   | air temp, globe temp, relative humidity, air velocity | S06       |
 
 
-*Living lab designation:*
+*Environmental-LivingLab designation:*
 
 |Living Lab |Participant ID | Parameters |
 |-------|---------|---------|
-| $LL_a$ | S01      | air-temp, illuminance, electricity, door, window |
-| $LL_b$ | S02, S08 | air temp, globe temp, relative humidity, air velocity |
-| $LL_c$ | S03, S05 | air temp, illuminance, electricity, door window , C02, relative humidity, globe temp |
-| $LL_d$ | S04, S07 | air temp, illuminance, electricity, door window , C02, relative humidity, globe temp |
-| $LL_e$ | S06      | air temp, globe temp, relative humidity, air velocity |
+| $LL_a$ | P01      | air-temp, illuminance, electricity, door, window |
+| $LL_b$ | P02, P08 | air temp, globe temp, relative humidity, air velocity |
+| $LL_c$ | P03, P05 | air temp, illuminance, electricity, door window , C02, relative humidity, globe temp |
+| $LL_d$ | P04, P07 | air temp, illuminance, electricity, door window , C02, relative humidity, globe temp |
+| $LL_e$ | P06      | air temp, globe temp, relative humidity, air velocity |
 
 
 ### Physiological Variables details
