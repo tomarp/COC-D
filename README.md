@@ -1,4 +1,4 @@
-# Personal Comfort Dynamics in Transition (PCDT Study)
+# Study on Personal Comfort Dynamics in Transition (PCDT)
 
 > CAR-OFFICE Comfort Dataset (COC-D) 
 
@@ -76,7 +76,7 @@ The second row is the sample rate expressed in Hz.
 
 *Environmental-LivingLab designation:*
 
-|Living Lab |Participant ID | Parameters |
+|Office Lab |Participant ID | Parameters |
 |-------|---------|---------|
 | $LL_a$ | P01      | air-temp, illuminance, electricity, door, window |
 | $LL_b$ | P02, P08 | air temp, globe temp, relative humidity, air velocity |
@@ -171,27 +171,27 @@ For example, in the row with values "-55, 45, 25":
 *Follow the steps to reproduce the paper results*
 
 **Step 1:**
-Run script_E4_features for physiological data
->`python3 script_E4_features.py --data /path/to/E4_data/ --output /path/to/output/dir/`  
-> Ex. python script_E4_features.py --data /path/datasets/VIC_summer2023/ --output ../output/E4_features/
+Run script-E4-features for physiological data
+>`python3 script-E4-features.py --data /path/to/E4_data/ --output /path/to/output/dir/`  
+> Ex. python script-E4-features.py --data /path/datasets/VIC_summer2023/ --output ../output/E4_features/
 
 **Step 2:**
-Run script_tinytag_data for environmental data
->`python3 script_tinytag.py --data /path/to/tinytag/data --output /path/to/output/dir/  
-> Ex. python script_tinytag_data.py --data /path/datasets/VIC_summer2023/ --output /path/output/tinytag_data/
+Run script-tinytag-data for environmental data
+>`python3 script-tinytag.py --data /path/to/tinytag/data --output /path/to/output/dir/  
+> Ex. python script-tinytag-data.py --data /path/datasets/VIC_summer2023/ --output /path/output/tinytag_data/
 
 **Step 3:**
-Run script_select_features for selecting physiological features
->`python3 script_select_E4_features.py --features /path/to/dir/ --output /path/to/output/dir/`  
-> Ex. python script_select_E4_features.py --features /path/output/E4_features/ --output /path/output/selected_E4_features/
+Run script-select-features for selecting physiological features
+>`python3 script-select-E4-features.py --features /path/to/dir/ --output /path/to/output/dir/`  
+> Ex. python script-select-E4-features.py --features /path/output/E4_features/ --output /path/output/selected_E4_features/
 
 **Step 4:**
-Run script_living_lab for processing living lab data
->`python3 script_living_lab.py`
+Run script-living-lab for processing living lab data
+>`python3 script-living-lab.py`
 
 **Step 5:**
-Run script_process_data for cleaning, interpolation, instances-labeling and merging phy-env data 
-> `python3 script_process_data.py`
+Run script-process-data for cleaning, interpolation, instances-labeling and merging phy-env data 
+> `python3 script-process-data.py`
 
 **Step 6:**
 Final analysis for each individuals
